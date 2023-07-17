@@ -161,6 +161,38 @@ background: #FFF;
   cursor: pointer;
 }
 
+ /* Feature products Styles */
+ .feature-product-container{
+    margin-top: 100px;
+    margin-bottom: 100px;
+ }
+ .feature-top-container{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+ }
+ .feature-product-description{
+  width: 36.375rem;
+ }
+ .feature-product-description h1{
+  color: #0A0826;
+font-size: 2.375rem;
+font-weight: 700;
+margin-bottom: 1rem;
+ }
+ .feature-product-description p{
+  color: #6C6C6C;
+  font-size: 1rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+ }
+ .btn-2{
+  background-color: var(--primary-btn);
+  color: var(--secondary-btn);
+  padding: 0.625rem 1.5rem;
+  border: 0;
+  cursor: pointer;
+ }
 
 /* responsive design */
 /* for small devices */
