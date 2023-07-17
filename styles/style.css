@@ -1,0 +1,33 @@
+/* Gooogle fonts poppins */
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800&family=Poppins:wght@400;500;600;700&display=swap');
+
+
+/* All Common styles */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* All header styles */
+header{
+  margin-top: 87px;
+}
+.header-nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.header-nav-description{
+  display: flex;
+  list-style-type: none;
+}
+.header-nav-description li a{
+  text-decoration: none;
+  padding-right: 20px;
+}
