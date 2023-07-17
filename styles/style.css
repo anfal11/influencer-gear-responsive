@@ -312,12 +312,15 @@ background: #FFF;
   }
   .popular-container-box{
     grid-template-areas:
-    "box-1 box-2"
-    "box-3 box-4"
-    "box-5 box-6"
-    "box-7 box-8"
-    "box-9 box-9"
-    ;
+    "box-1"
+    "box-2"
+    "box-3"
+    "box-4"
+    "box-5"
+    "box-6"
+    "box-7"
+    "box-8"
+    "box-9";
   }
   .posi{
     left: 60%;
@@ -325,6 +328,7 @@ background: #FFF;
   .popular-box{
     width: 330px;
   }
+
 }
 /* for large devices */
 @media screen and (min-width: 768px) and (max-width: 1024px) {
@@ -392,6 +396,21 @@ background: #FFF;
   .platform-images img{
     width: 80px;
   }
+    .popular-container-box{
+    grid-template-areas:
+    "box-1 box-2"
+    "box-3 box-4"
+    "box-5 box-6"
+    "box-7 box-8"
+    "box-9 box-9"
+    ;
+  }
+  .posi{
+    left: 60%;
+  }
+  .popular-box{
+    width: 330px;
+  }
 }
 /* for extra large devices */
 @media screen and (min-width: 1024px) and (max-width: 1280px) {
@@ -445,5 +464,20 @@ background: #FFF;
     position: relative;
     border: 1px solid blue;
     display: none;
+  }
+    .popular-container-box{
+    grid-template-areas:
+    "box-1 box-2"
+    "box-3 box-4"
+    "box-5 box-6"
+    "box-7 box-8"
+    "box-9 box-9"
+    ;
+  }
+  .posi{
+    left: 60%;
+  }
+  .popular-box{
+    width: 330px;
   }
 }
