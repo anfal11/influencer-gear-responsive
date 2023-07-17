@@ -14,7 +14,7 @@ html, body{
     font-family: 'Poppins', sans-serif;
 }
 
-/* All header styles */
+/* Header Nav Styles */
 header{
   margin-top: 87px;
 }
@@ -23,6 +23,11 @@ header{
   justify-content: space-around;
   align-items: center;
 }
+.header-nav h1{
+  color: #3A3A3A;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
 .header-nav-description{
   display: flex;
   list-style-type: none;
@@ -30,4 +35,59 @@ header{
 .header-nav-description li a{
   text-decoration: none;
   padding-right: 20px;
+  color: #3A3A3A;
+font-size: 1rem;
+font-weight: 600;
+}
+
+/* Header Description and Photo styles */
+
+
+/* responsive design */
+/* for small devices */
+@media screen and (max-width: 640px) {
+  header{
+    margin-top: 2rem;
+  }
+  .header-nav{
+    flex-direction: column;   
+  }
+  .header-nav h1{
+    margin-bottom: 0.625rem; 
+  }
+  .header-nav-description li a{
+    padding-right: 10px;
+  font-size: 0.7rem;
+  }
+}
+/* for medium devices */
+@media screen and (min-width: 640px) and (max-width: 768px) {
+  header{
+    margin-top: 2rem;
+  }
+  .header-nav{
+    flex-direction: column;   
+  }
+  .header-nav h1{
+    margin-bottom: 0.625rem; 
+  }
+  .header-nav-description li a{
+    padding-right: 10px;
+  font-size: 0.7rem;
+  }
+}
+/* for large devices */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+  .header-nav-description{
+    padding-right: 20px;
+
+  }
+}
+/* for extra large devices */
+@media screen and (min-width: 1024px) and (max-width: 1280px) {
+  .header-nav-description{
+    padding-right: 40px;
+
+  }
 }
