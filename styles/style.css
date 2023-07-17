@@ -262,20 +262,12 @@ margin-bottom: 20px;
   .header-photo{
     background-image: url("../images/Circle\ design.svg");
     margin-top: 50px;
-    background-repeat: no-repeat;
     background-size: cover;
-    border: 1px solid red;
-    /* display: none; */
   }
   .header-photo img{
-    /* width: 202px;
-    position: relative;
-    border: 1px solid blue;
-    display: none; */
-    width: 300px;
-      /* margin-top: 40px; */
+    width: 300px; 
   }
-/*  */
+
   .platform-container{
     width: 94%;
   flex-wrap: wrap;
@@ -466,21 +458,7 @@ width: 20.375rem;
   .header-photo img{
     width: 320px;
   }
-  /* .header-photo{
-    background-image: url("../images/Circle\ design.svg");
-    margin-top: 50px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 450px;
-    border: 1px solid red;
-    display: none;
-  }
-  .header-photo img{
-    width: 202px;
-    position: relative;
-    border: 1px solid blue;
-    display: none;
-  } */
+
   .platform-container{
     width: 100%;
   flex-wrap: wrap;
